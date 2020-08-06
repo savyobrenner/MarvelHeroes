@@ -14,6 +14,7 @@
 		295A879824DC648D008B36BA /* Thumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295A879724DC648D008B36BA /* Thumbnail.swift */; };
 		295A879A24DC64A4008B36BA /* MarvelHeroURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295A879924DC64A4008B36BA /* MarvelHeroURL.swift */; };
 		295A879D24DC71E2008B36BA /* HeroTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295A879C24DC71E2008B36BA /* HeroTableViewCell.swift */; };
+		295A879F24DC7D90008B36BA /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 295A879E24DC7D90008B36BA /* WebKit.framework */; };
 		5862F329F376C9B3818881D9 /* Pods_HeroisMarvel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 677E069FAD941FCCF2E7D5C3 /* Pods_HeroisMarvel.framework */; };
 		A13D20961F9D323300EB19F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13D20951F9D323300EB19F7 /* AppDelegate.swift */; };
 		A13D20981F9D323300EB19F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13D20971F9D323300EB19F7 /* ViewController.swift */; };
@@ -32,6 +33,7 @@
 		295A879724DC648D008B36BA /* Thumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thumbnail.swift; sourceTree = "<group>"; };
 		295A879924DC64A4008B36BA /* MarvelHeroURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelHeroURL.swift; sourceTree = "<group>"; };
 		295A879C24DC71E2008B36BA /* HeroTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroTableViewCell.swift; sourceTree = "<group>"; };
+		295A879E24DC7D90008B36BA /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		2D9E5ECD1B72E3371B9ECE97 /* Pods-HeroisMarvel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroisMarvel.release.xcconfig"; path = "Target Support Files/Pods-HeroisMarvel/Pods-HeroisMarvel.release.xcconfig"; sourceTree = "<group>"; };
 		677E069FAD941FCCF2E7D5C3 /* Pods_HeroisMarvel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeroisMarvel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A13D20921F9D323300EB19F7 /* HeroisMarvel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroisMarvel.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				295A879F24DC7D90008B36BA /* WebKit.framework in Frameworks */,
 				5862F329F376C9B3818881D9 /* Pods_HeroisMarvel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -118,6 +121,7 @@
 		C24615AB155F9A0D314A1C62 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				295A879E24DC7D90008B36BA /* WebKit.framework */,
 				677E069FAD941FCCF2E7D5C3 /* Pods_HeroisMarvel.framework */,
 			);
 			name = Frameworks;
