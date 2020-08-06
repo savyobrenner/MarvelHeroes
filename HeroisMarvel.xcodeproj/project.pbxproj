@@ -82,6 +82,45 @@
 			name = Models;
 			sourceTree = "<group>";
 		};
+		295A87A024DC7E16008B36BA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A13D20951F9D323300EB19F7 /* AppDelegate.swift */,
+				A13D209C1F9D323300EB19F7 /* Assets.xcassets */,
+				A13D20A11F9D323300EB19F7 /* Info.plist */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		295A87A124DC7E41008B36BA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A13D20971F9D323300EB19F7 /* ViewController.swift */,
+				A13D20A91F9D333F00EB19F7 /* HeroViewController.swift */,
+				A13D20A71F9D331600EB19F7 /* HeroesTableViewController.swift */,
+				295A879C24DC71E2008B36BA /* HeroTableViewCell.swift */,
+				A13D20991F9D323300EB19F7 /* Main.storyboard */,
+				A13D209E1F9D323300EB19F7 /* LaunchScreen.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		295A87A224DC7E59008B36BA /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				295A879B24DC64B5008B36BA /* Models */,
+			);
+			name = Domain;
+			sourceTree = "<group>";
+		};
+		295A87A324DC7E72008B36BA /* Infra */ = {
+			isa = PBXGroup;
+			children = (
+				295A878F24DC61C9008B36BA /* MarvelAPI.swift */,
+			);
+			name = Infra;
+			sourceTree = "<group>";
+		};
 		A13D20891F9D323300EB19F7 = {
 			isa = PBXGroup;
 			children = (
@@ -103,17 +142,10 @@
 		A13D20941F9D323300EB19F7 /* HeroisMarvel */ = {
 			isa = PBXGroup;
 			children = (
-				295A879B24DC64B5008B36BA /* Models */,
-				295A878F24DC61C9008B36BA /* MarvelAPI.swift */,
-				A13D20951F9D323300EB19F7 /* AppDelegate.swift */,
-				A13D20971F9D323300EB19F7 /* ViewController.swift */,
-				A13D20A91F9D333F00EB19F7 /* HeroViewController.swift */,
-				A13D20A71F9D331600EB19F7 /* HeroesTableViewController.swift */,
-				295A879C24DC71E2008B36BA /* HeroTableViewCell.swift */,
-				A13D20991F9D323300EB19F7 /* Main.storyboard */,
-				A13D209C1F9D323300EB19F7 /* Assets.xcassets */,
-				A13D209E1F9D323300EB19F7 /* LaunchScreen.storyboard */,
-				A13D20A11F9D323300EB19F7 /* Info.plist */,
+				295A87A324DC7E72008B36BA /* Infra */,
+				295A87A124DC7E41008B36BA /* UI */,
+				295A87A224DC7E59008B36BA /* Domain */,
+				295A87A024DC7E16008B36BA /* Main */,
 			);
 			path = HeroisMarvel;
 			sourceTree = "<group>";
